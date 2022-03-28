@@ -59,7 +59,7 @@ if ! [ -f ${fluxfile} ] ; then
   echo "----------  ----------  ------------  --------------  -----------  -----------  ----------" >> ${fluxfile}
 fi
 
-echo "${fluxdate}    200000               -1         -1           ${fluxobsflux}           -1            0" >> ${fluxfile}
+echo "${fluxdate}    200000               -1         -1           ${fluxobsflux}           -1            -1" >> ${fluxfile}
 
 
 exit 0
